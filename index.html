@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscle Factory Store - Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('pictures/InicioBackground.jpg');
+
+background-repeat: no-repeat;
+
+background-position: center;
+
+background-size: cover;
+
+background-attachment: fixed;
+            color: #FFFFFF;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header, .footer {
+            background: black;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            width: 130px;
+            height: 100px;
+        }
+        .menu a {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        .menu a:hover {
+            background-color: #555;
+        }
+        .banner {
+            background: url('gym-banner.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner h1 {
+            font-size: 3em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2, .content p {
+            margin: 20px 0;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            background: #fdfdfd;
+            padding: 5px;
+            margin: 6px;
+            width: 30%;
+            box-sizing: border-box;
+            color: #0A0A0A;
+        }
+        .service img {
+            width: 35%;
+        }
+        .cta {
+            background: #555;
+            text-align: center;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .cta h2 {
+            margin: 0;
+        }
+        .cta a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background: #0A0A0A;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        .cta a:hover {
+            background: #333;
+        }
+        .testimonials {
+            background: #222;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .testimonials h2 {
+            margin-bottom: 20px;
+        }
+        .testimonial {
+            margin-bottom: 20px;
+        }
+        .testimonial p {
+            font-style: italic;
+        }
+        .testimonial span {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" class="logo" alt="Muscle Factory Store">
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="store.html">Tienda</a>
+            <a href="contact.html">Contacto</a>
+            <a href="gallery.html">Galería</a> 
+        </nav>
+    </header>
+    <div class="banner">
+        <h1>Bienvenido a Muscle Factory</h1>
+    </div>
+    <main class="content">
+        <h2>Sobre Nosotros</h2>
+        <p style="background: rgba(0, 0, 0, 0.82); font-size: 2rem;">En Muscle Factory, somos más que un gimnasio; somos tu socio en el camino hacia un estilo de vida mejor.</p>
+        <div class="services">
+            <div class="service">
+                <img src="pictures/entrenamiento.gif" alt="Entrenamiento Personalizado">
+                <h4>Entrenamiento Personalizado</h4>
+                <p>Obtén un plan de entrenamiento personalizado adaptado a tus necesidades.</p>
+            </div>
+            <div class="service">
+                <img src="pictures/rutina.gif" alt="Planes Nutricionales">
+                <h4>Planes Nutricionales</h4>
+                <p>Accede a planes nutricionales diseñados por expertos para optimizar tu rendimiento.</p>
+            </div>
+            <div class="service">
+                <img src="pictures/supples.gif" alt="Suplementos">
+                <h4>Suplementos</h4>
+                <p>Explora nuestra tienda y encuentra los suplementos adecuados para ti.</p>
+            </div>
+        </div>
+        <div class="services">
+            <div class="service">
+                <img src="pictures/coach.gif" alt="Coaching en Línea">
+                <h4>Coaching en Línea</h4>
+                <p>Transforma tu cuerpo y mente con nuestros programas de coaching en línea, adaptados a tus objetivos.</p>
+            </div>
+            <div class="service">
+                <img src="pictures/virtuales.gif" alt="Clases Virtuales">
+                <h4>Clases Virtuales</h4>
+                <p>Participa en nuestras clases virtuales y mantente en forma desde la comodidad de tu hogar.</p>
+            </div>
+            <div class="service">
+                <img src="pictures/internet.gif" alt="App de Fitness">
+                <h4>Apps de Fitness</h4>
+                <p>Entra a nuestra App de fitness para seguir tu progreso y acceder a recursos exclusivos.</p>
+            </div>
+        </div>
+        <div class="cta">
+            <h2>¡Únete a Nosotros Hoy!</h2>
+            <p>Regístrate , nuestro equipo esta esperando para atenderte.</p>
+            <a href="#" id="registerWhatsApp">Regístrate</a>
+        </div>
+        <div class="testimonials">
+            <h2>Testimonios</h2>
+            <div class="testimonial">
+                <p>"Muscle Factory ha sido una bendición para mi rutina de ejercicio. Los entrenadores en línea personalizan los programas según mis necesidades, y las máquinas están siempre en perfectas condiciones."</p>
+                <span>- María Rodríguez</span>
+            </div>
+            <div class="testimonial">
+                <p>"El coaching online de Muscle Factory es excepcional. Puedo entrenar desde casa y seguir un plan personalizado. ¡Los recomiendo al 100%!"</p>
+                <span>- Laura Jiménez</span>
+            </div>
+            <div class="testimonial">
+                <p>"Las clases virtuales son increíbles. Me permiten mantenerme en forma a pesar de mi apretada agenda. ¡Gracias, Muscle Factory!"</p>
+                <span>- Roberto Castillo</span>
+            </div>
+            <div class="testimonial">
+                <p>"Los suplementos de Muscle Factory han sido clave en mi recuperación y progreso. Siento que tengo más energía y mis resultados han mejorado considerablemente."</p>
+                <span>- Gabriela Mora</span>
+            </div>
+            <div class="testimonial">
+                <p>"Entrenar en Muscle Factory ha sido una experiencia transformadora. Los entrenadores son muy profesionales y siempre están dispuestos a ayudarte a superar tus límites."</p>
+                <span>- Daniel Solano</span>
+            </div>
+            <div class="testimonial">
+                <p>"Me encanta el ambiente en Muscle Factory. Las máquinas están siempre disponibles, y el equipo es muy acogedor. Además, las recomendaciones nutricionales me han ayudado mucho."</p>
+                <span>- Natalia Álvarez</span>
+            </div>
+            <div class="testimonial">
+                <p>"La flexibilidad de las clases virtuales es fantástica. Puedo entrenar desde casa sin perderme ninguna sesión, lo cual es perfecto para mi estilo de vida ocupado."</p>
+                <span>- Andrés Vargas</span>
+            </div>
+            <div class="testimonial">
+                <p>"Muscle Factory tiene todo lo que necesito en un solo lugar: máquinas de alta calidad, coaching personalizado, y suplementos que realmente funcionan."</p>
+                <span>- Sofía Porras</span>
+            </div>
+            <div class="testimonial">
+                <p>"El sistema de membresía mensual es muy conveniente, y los servicios adicionales como la asesoría nutricional y el coaching online son un gran plus."</p>
+                <span>- Carlos Navarro</span>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Muscle Factory Store. Todos los derechos reservados.</p>
+    </footer>
+</body>
+<script>
+    document.getElementById("registerWhatsApp").addEventListener("click", function() {
+        // Crear el mensaje de WhatsApp
+        let mensajeWhatsApp = `Hola, quiero registrarme`;
+
+        // Crear la URL de WhatsApp
+        let url = `https://wa.me/+50670764648?text=${encodeURIComponent(mensajeWhatsApp)}`;
+
+        // Abrir WhatsApp en una nueva ventana/pestaña
+        window.open(url, "_blank");
+    });
+</script>
+</html>
